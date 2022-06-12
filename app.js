@@ -16,17 +16,18 @@ app.use(cookieParser());
 
 /**
  * Get the invert string named 
- * @name getInvertedstring
+ * @name 
  * @path {GET} 
- * @param {function} todoController.getTodos - A controller callback
+ * @param {function} route - router
  */
-
 const route = require('./routes/iecho.router')
-app.use('/iecho', route);
+app.use('/', route);
 
 
 
-// catch 404 and forward to error handler
+/**
+ * catch 404 and forward to error handler
+ */
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;
@@ -43,7 +44,7 @@ app.use(function(req, res, next) {
     res.status( err.status || 500);
     res.json({
       message: err.message,
-      error: {}
+      error: "ruta invalida"
     });
   });
   

@@ -16,8 +16,7 @@ En las peticiones se debe incluir el **query** que vamos a madar a esa ruta, la 
 
 ## File with Test Cases
 here is the use case document with the
-[Test Cases ](https://drive.google.com/file/d/1Y8jBn5JK_UnQkvqet33rVqu0SNwuDX41/view?usp=sharing "pdf test use case")
-
+<a href="https://drive.google.com/file/d/1Y8jBn5JK_UnQkvqet33rVqu0SNwuDX41/view?usp=sharing" target="_blank">Test Cases </a>
 
 ## How to run the project
     > npm start -> run standard

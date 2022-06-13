@@ -6,7 +6,7 @@
         "dev": "nodemon ./bin/www",
         "debug": "set DEBUG=SERVIDOR:* & nodemon --inspect ./bin/www",
         "test": "mocha test --exit",
-        "report": "npx mocha --spec ./test/test.spec.js --reporter mochawesome"
+        "report": "npx mocha --spec ./test/test.spec.js --reporter mochawesome --exit"
         
     },
     "dependencies": {

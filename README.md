@@ -16,7 +16,8 @@ En las peticiones se debe incluir el **query** que vamos a madar a esa ruta, la 
 
 ## File with Test Cases
 here is the use case document with the
-<a href="https://drive.google.com/file/d/1Y8jBn5JK_UnQkvqet33rVqu0SNwuDX41/view?usp=sharing" target="_blank">Test Cases </a>
+[Test Cases ](https://drive.google.com/file/d/1Y8jBn5JK_UnQkvqet33rVqu0SNwuDX41/view?usp=sharing "pdf test use case")
+
 
 ## How to run the project
     > npm start -> run standard
@@ -27,6 +28,7 @@ here is the use case document with the
 
 you dont need to run the report command, it is already created the report. Just open the html file, open with live serve and see the test report.
 
+[Report test page ](https://josefelipeescobar.github.io/API-InvertString/ "pdf test use case")
 
 
 ## Route

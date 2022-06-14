@@ -12,7 +12,7 @@
     {
     "engines": {
     "node": "12.x"
-  }
+    },
     },
     "dependencies": {
         "chai": "^4.3.6",

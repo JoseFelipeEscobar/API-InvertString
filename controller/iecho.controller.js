@@ -63,7 +63,7 @@ const invertString = (req, res, next) => {
          string to see if it is a palindrome.
          * @type {boolean}
          */
-    let isPalindrome = reverseStr(text) === normalizeStr(text);
+    const isPalindrome = reverseStr(text) === normalizeStr(text);
     /**
          
     * response object with inverted character string and palindrome verification

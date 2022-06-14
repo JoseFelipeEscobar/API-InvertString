@@ -1,22 +1,23 @@
 <h1 style="color : rgb(0,256,256)">API invertString Palindorme</h1> 
-Este es un api que toma un texto de entrada y lo invierte e indicada si es un palindrome <br>
+This is an api that takes an input text and inverts it and indicates if it is a palindrome.<br>
 @author: Jose Felipe Escobar Ballesta - jfejose10@gmail.com <br>
-El proyecto fue desarrollado con Visual Studio Code
+The project was developed with Visual Studio Code
 
-## Node version: 12.22.22
+### Node version: 12.22.22
 <hr>
 
-# <p style="color : rgb(0,256,256)">Getting started</p>
+# <h1 style="color: rgb(0,256,256)">Getting started</h1>
 
-En las peticiones se debe incluir el **query** que vamos a madar a esa ruta, la etiqueta debe tener el nombre ***text***
+In the requests a **query** must be included, this parameter must have the name ***text***
 
 ## ejemplo de peticion:
-    > http://localhost:3000/iecho?text=some_string
+    local -> http://localhost:3000/iecho?text=some_string
+    Api on heroku -> https://invert-string-api.herokuapp.com/iecho?text=some_string
 <hr>
 
 ## File with Test Cases
 here is the use case document with the
-[Test Cases ](https://drive.google.com/file/d/1Y8jBn5JK_UnQkvqet33rVqu0SNwuDX41/view?usp=sharing "pdf test use case")
+[Test Cases ](https://drive.google.com/file/d/1Y8jBn5JK_UnQkvqet33rVqu0SNwuDX41/view?usp=sharing "pdf test use case") 🧪📈
 
 
 ## How to run the project
@@ -25,16 +26,16 @@ here is the use case document with the
     > npm run debug -> run debugging session
     > npm test -> start the tests
     > npm run report -> generate the test report documentation
-
-you dont need to run the report command, it is already created the report. Just open the html file, open with live serve and see the test report.
-
-[Report test page ](https://josefelipeescobar.github.io/API-InvertString/ "pdf test use case")
+## Test report
+you can see the report generated with the report command, it is already created the report click on the next link
+[Report test page ](https://josefelipeescobar.github.io/API-InvertString/ " report tests") to see
 
 
 ## Route
     "GET"
     > Invert-string -> http://localhost:3000/iecho
 
-## ROUTE API Online
+## API link working on heroku  
     "GET"
-    -> Invert-string -> http://heroku.app/iecho
+    -> Invert string link, 
+<br> ## presiona en el siguiente link para ver [invert-string-API](https://invert-string-api.herokuapp.com/iecho "API link")

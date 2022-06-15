@@ -40,17 +40,19 @@ const invertString = (req, res, next) => {
     /**
      * function to clean and organize the input string and lowercase the
      * string. Use RexEXP to remove unwanted characters in the input string.
-     * @param {string} text is the string that sends the user by req
+     * @param {string} string is the string that sends the user by req
      * @returns a string with only alphanumeric characters
      */
     const normalizeStr = (string) => {
       const re = /[\W_]/g; // or let re = /[^A-Za-z0-9]/g;
+      // this line we use because we want to make a cleaning of accents
+      string= string.normalize('NFKD');
       return string.toLowerCase().replace(re, "");
     };
 
     /**
      * function that inverts the previously normalized string
-     * @param {string} text
+     * @param {string} text 
      * @returns  returns a string with inverted text
      */
     const reverseStr = (text) => {

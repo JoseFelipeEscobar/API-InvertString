@@ -37,4 +37,4 @@ you can see the report generated with the report command, it is already created 
 
 ## API link working on heroku  
 Ejemplo de uso del api, le vamos a ingresar el texto "Dábale arroz a la zorra el abad" para invertir y ver si es un palindrome
-presiona en el siguiente link para ver <a href="https://invert-string-api.herokuapp.com/iecho?text=Dábale arroz a la zorra el abad" title="API link">invert-string API</a>
+presiona en el siguiente link para ver <a href="https://invert-string-api.herokuapp.com/iecho?text=Dábale arroz a la zorra el abad" target="_blank" title="API link">invert-string API</a>

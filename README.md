@@ -10,7 +10,7 @@ The project was developed with Visual Studio Code
 
 In the requests a **query** must be included, this parameter must have the name ***text***
 
-## ejemplo de peticion:
+## Request example:
     local -> http://localhost:3000/iecho?text=some_string
     Api on heroku -> https://invert-string-api.herokuapp.com/iecho?text=some_string
 <hr>

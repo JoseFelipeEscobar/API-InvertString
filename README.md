@@ -1,4 +1,4 @@
-<h1 style="color : rgb(0,256,256)">API invertString Palindorme</h1> 
+<h1 style="color : rgb(0,256,256)">API invertString Palindrome</h1> 
 This is an api that takes an input text and inverts it and indicates if it is a palindrome.<br>
 @author: Jose Felipe Escobar Ballesta - jfejose10@gmail.com <br>
 The project was developed with Visual Studio Code
